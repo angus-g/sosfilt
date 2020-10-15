@@ -107,7 +107,7 @@ def sosfiltfilt(sos, x, axis=-1, padtype="odd", padlen=None):
 
     # backward filter
     y_0 = signaltools.axis_slice(y, start=-1, axis=axis)
-    (y, zf) = sosfilt(sos, axis_reverse(y, axis=axis), axis=axis, zi=zi * y_0)
+    (y, zf) = sosfilt(sos, signaltools.axis_reverse(y, axis=axis), axis=axis, zi=zi * y_0)
 
     # reshaping
     y = signaltools.axis_reverse(y, axis=axis)
