@@ -1,0 +1,12 @@
+language: python
+cache: pip
+install:
+  - pip install -e .
+jobs:
+  include:
+    - stage: "Code Formatting"
+      install: pip install black
+      script: black --check --verbose
+    - stage: "Tests"
+      name: "Unit Tests"
+      script: pytest
