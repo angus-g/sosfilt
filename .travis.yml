@@ -6,7 +6,7 @@ jobs:
   include:
     - stage: "Code Formatting"
       install: pip install black
-      script: black --check --verbose
+      script: black --check --verbose .
     - stage: "Tests"
       name: "Unit Tests"
       script: pytest
