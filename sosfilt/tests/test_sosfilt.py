@@ -5,6 +5,7 @@ from scipy import signal
 
 from sosfilt import sosfiltfilt
 
+
 class TestFiltFilt(object):
     def filtfilt(self, zpk, x, axis=-1, padtype="odd", padlen=None):
         sos = signal.zpk2sos(*zpk)

@@ -2,6 +2,7 @@ import numpy as np
 from scipy.signal import signaltools
 from ._sosfilt import _sosfilt
 
+
 def _validate_sos(sos):
     sos = np.atleast_2d(sos)
     if sos.ndim != 2:
@@ -13,6 +14,7 @@ def _validate_sos(sos):
         raise ValueError("sos[:, 3] should be all ones")
 
     return sos, n_sections
+
 
 def sosfilt_zi(sos):
     sos = np.asarray(sos)
@@ -32,6 +34,7 @@ def sosfilt_zi(sos):
         scale *= b.sum() / a.sum()
 
     return zi
+
 
 def sosfilt(sos, x, axis=-1, zi=None):
     x = signaltools._validate_x(x)
@@ -64,7 +67,7 @@ def sosfilt(sos, x, axis=-1, zi=None):
     zi = np.moveaxis(zi, [0, axis + 1], [-2, -1])
     x_shape, zi_shape = x.shape, zi.shape
     x = np.reshape(x, (-1, x.shape[-1]))
-    x = np.array(x, dtype, order="C") # make a modifiable copy
+    x = np.array(x, dtype, order="C")  # make a modifiable copy
     zi = np.ascontiguousarray(np.reshape(zi, (-1, n_sections, 2)))
     sos = sos.astype(dtype, copy=False)
     _sosfilt(sos, x, zi)
@@ -79,6 +82,7 @@ def sosfilt(sos, x, axis=-1, zi=None):
         out = x
 
     return out
+
 
 def sosfiltfilt(sos, x, axis=-1, padtype="odd", padlen=None):
     # filter validation
@@ -107,7 +111,9 @@ def sosfiltfilt(sos, x, axis=-1, padtype="odd", padlen=None):
 
     # backward filter
     y_0 = signaltools.axis_slice(y, start=-1, axis=axis)
-    (y, zf) = sosfilt(sos, signaltools.axis_reverse(y, axis=axis), axis=axis, zi=zi * y_0)
+    (y, zf) = sosfilt(
+        sos, signaltools.axis_reverse(y, axis=axis), axis=axis, zi=zi * y_0
+    )
 
     # reshaping
     y = signaltools.axis_reverse(y, axis=axis)
