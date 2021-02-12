@@ -2536,24 +2536,6 @@ static int __Pyx_ValidateAndInit_memviewslice(
                 PyObject *original_obj);
 
 /* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
-static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(PyObject *, int writable_flag);
-
-/* ObjectToMemviewSlice.proto */
 static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_float(PyObject *, int writable_flag);
 
 /* ObjectToMemviewSlice.proto */
@@ -2570,6 +2552,24 @@ static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc
 
 /* ObjectToMemviewSlice.proto */
 static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_long_double_complex(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(PyObject *, int writable_flag);
+
+/* ObjectToMemviewSlice.proto */
+static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(PyObject *, int writable_flag);
 
 /* CIntToPy.proto */
 static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value);
@@ -4299,7 +4299,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L16_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4316,7 +4316,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L19_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4333,7 +4333,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L22_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4352,7 +4352,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L25_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4369,7 +4369,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L28_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4386,7 +4386,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
           __Pyx_GOTREF(__pyx_t_6);
           __pyx_t_5 = __Pyx_PyIndex_AsSsize_t(__pyx_t_6); if (unlikely((__pyx_t_5 == (Py_ssize_t)-1) && PyErr_Occurred())) __PYX_ERR(0, 12, __pyx_L1_error)
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 2) != 0);
+          __pyx_t_2 = ((((Py_ssize_t)__pyx_t_5) == 3) != 0);
           __pyx_t_3 = __pyx_t_2;
           __pyx_L31_bool_binop_done:;
           if (__pyx_t_3) {
@@ -4410,7 +4410,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L34_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_float(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4432,7 +4432,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L38_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_float_complex(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4454,7 +4454,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L42_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_double(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4476,7 +4476,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L46_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_double_complex(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4498,7 +4498,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L50_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_long__double(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4520,7 +4520,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt__sosfilt(CYTHON_UNUSED PyObject *__
     __pyx_t_3 = __pyx_t_2;
     __pyx_L54_bool_binop_done:;
     if (__pyx_t_3) {
-      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(__pyx_v_arg, 0); 
+      __pyx_t_8 = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_long_double_complex(__pyx_v_arg, 0); 
       __pyx_v_memslice = __pyx_t_8;
       __pyx_t_3 = (__pyx_v_memslice.memview != 0);
       if (__pyx_t_3) {
@@ -4975,7 +4975,7 @@ static PyObject *__pyx_fuse_0__pyx_pw_7sosfilt_8_sosfilt_3_sosfilt(PyObject *__p
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_float(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_float(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -5024,6 +5024,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_2_sosfilt(CYTHON_UNUSED PyObject *_
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_0_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -5031,7 +5033,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_2_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -5039,7 +5041,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_2_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -5047,11 +5049,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_2_sosfilt(CYTHON_UNUSED PyObject *_
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -5136,8 +5138,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -5147,51 +5149,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = (((*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_cur) + (*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = (((*((float *) ( /* dim=2 */ ((char *) (((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) + (*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = ((((*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))) * __pyx_v_x_new)) + (*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = ((((*((float *) ( /* dim=2 */ ((char *) (((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((float *) ( /* dim=2 */ ((char *) (((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_new)) + (*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = (((*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))) * __pyx_v_x_cur) - ((*((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = (((*((float *) ( /* dim=2 */ ((char *) (((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_cur) - ((*((float *) ( /* dim=2 */ ((char *) (((float *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -5204,9 +5211,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((float *) ( /* dim=1 */ ((char *) (((float *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -5315,7 +5322,7 @@ static PyObject *__pyx_fuse_1__pyx_pw_7sosfilt_8_sosfilt_5_sosfilt(PyObject *__p
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_float_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_float_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -5364,6 +5371,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_4_sosfilt(CYTHON_UNUSED PyObject *_
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_1_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -5371,7 +5380,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_4_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -5379,7 +5388,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_4_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -5387,11 +5396,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_4_sosfilt(CYTHON_UNUSED PyObject *_
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -5476,8 +5485,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -5487,51 +5496,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = __Pyx_c_sum_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_cur), (*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = __Pyx_c_sum_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), (*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = __Pyx_c_sum_float(__Pyx_c_diff_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))), __pyx_v_x_new)), (*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = __Pyx_c_sum_float(__Pyx_c_diff_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_new)), (*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = __Pyx_c_diff_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))), __pyx_v_x_cur), __Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = __Pyx_c_diff_float(__Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_cur), __Pyx_c_prod_float((*((__pyx_t_float_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -5544,9 +5558,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((__pyx_t_float_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_float_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -5655,7 +5669,7 @@ static PyObject *__pyx_fuse_2__pyx_pw_7sosfilt_8_sosfilt_7_sosfilt(PyObject *__p
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -5704,6 +5718,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_6_sosfilt(CYTHON_UNUSED PyObject *_
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_2_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -5711,7 +5727,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_6_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -5719,7 +5735,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_6_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -5727,11 +5743,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_6_sosfilt(CYTHON_UNUSED PyObject *_
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -5816,8 +5832,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -5827,51 +5843,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = (((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_cur) + (*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = (((*((double *) ( /* dim=2 */ ((char *) (((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) + (*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = ((((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))) * __pyx_v_x_new)) + (*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = ((((*((double *) ( /* dim=2 */ ((char *) (((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((double *) ( /* dim=2 */ ((char *) (((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_new)) + (*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = (((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))) * __pyx_v_x_cur) - ((*((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = (((*((double *) ( /* dim=2 */ ((char *) (((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_cur) - ((*((double *) ( /* dim=2 */ ((char *) (((double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -5884,9 +5905,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((double *) ( /* dim=1 */ ((char *) (((double *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -5995,7 +6016,7 @@ static PyObject *__pyx_fuse_3__pyx_pw_7sosfilt_8_sosfilt_9_sosfilt(PyObject *__p
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -6044,6 +6065,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_8_sosfilt(CYTHON_UNUSED PyObject *_
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_3_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -6051,7 +6074,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_8_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -6059,7 +6082,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_8_sosfilt(CYTHON_UNUSED PyObject *_
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -6067,11 +6090,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_8_sosfilt(CYTHON_UNUSED PyObject *_
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -6156,8 +6179,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -6167,51 +6190,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = __Pyx_c_sum_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_cur), (*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = __Pyx_c_sum_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), (*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = __Pyx_c_sum_double(__Pyx_c_diff_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))), __pyx_v_x_new)), (*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = __Pyx_c_sum_double(__Pyx_c_diff_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_new)), (*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = __Pyx_c_diff_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))), __pyx_v_x_cur), __Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = __Pyx_c_diff_double(__Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_cur), __Pyx_c_prod_double((*((__pyx_t_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -6224,9 +6252,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((__pyx_t_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_double_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -6335,7 +6363,7 @@ static PyObject *__pyx_fuse_4__pyx_pw_7sosfilt_8_sosfilt_11_sosfilt(PyObject *__
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_long__double(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_long__double(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -6384,6 +6412,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_10_sosfilt(CYTHON_UNUSED PyObject *
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_4_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -6391,7 +6421,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_10_sosfilt(CYTHON_UNUSED PyObject *
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -6399,7 +6429,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_10_sosfilt(CYTHON_UNUSED PyObject *
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -6407,11 +6437,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_10_sosfilt(CYTHON_UNUSED PyObject *
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -6496,8 +6526,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -6507,51 +6537,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = (((*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_cur) + (*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = (((*((long double *) ( /* dim=2 */ ((char *) (((long double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) + (*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = ((((*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))) * __pyx_v_x_new)) + (*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = ((((*((long double *) ( /* dim=2 */ ((char *) (((long double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_cur) - ((*((long double *) ( /* dim=2 */ ((char *) (((long double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_new)) + (*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = (((*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))) * __pyx_v_x_cur) - ((*((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))) * __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = (((*((long double *) ( /* dim=2 */ ((char *) (((long double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))) * __pyx_v_x_cur) - ((*((long double *) ( /* dim=2 */ ((char *) (((long double *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))) * __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -6564,9 +6599,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((long double *) ( /* dim=1 */ ((char *) (((long double *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -6675,7 +6710,7 @@ static PyObject *__pyx_fuse_5__pyx_pw_7sosfilt_8_sosfilt_13_sosfilt(PyObject *__
       values[1] = __Pyx_Arg_VARARGS(__pyx_args, 1);
       values[2] = __Pyx_Arg_VARARGS(__pyx_args, 2);
     }
-    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
+    __pyx_v_sos = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_long_double_complex(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_sos.memview)) __PYX_ERR(0, 15, __pyx_L3_error)
     __pyx_v_x = __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(values[1], PyBUF_WRITABLE); if (unlikely(!__pyx_v_x.memview)) __PYX_ERR(0, 16, __pyx_L3_error)
     __pyx_v_zi = __Pyx_PyObject_to_MemoryviewSlice_d_d_dc___pyx_t_long_double_complex(values[2], PyBUF_WRITABLE); if (unlikely(!__pyx_v_zi.memview)) __PYX_ERR(0, 17, __pyx_L3_error)
   }
@@ -6724,6 +6759,8 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_12_sosfilt(CYTHON_UNUSED PyObject *
   Py_ssize_t __pyx_t_16;
   Py_ssize_t __pyx_t_17;
   Py_ssize_t __pyx_t_18;
+  Py_ssize_t __pyx_t_19;
+  Py_ssize_t __pyx_t_20;
   __Pyx_RefNannySetupContext("__pyx_fuse_5_sosfilt", 0);
 
   /* "sosfilt/_sosfilt.pyx":18
@@ -6731,7 +6768,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_12_sosfilt(CYTHON_UNUSED PyObject *
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  */
   __pyx_v_n_signals = (__pyx_v_x.shape[0]);
 
@@ -6739,7 +6776,7 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_12_sosfilt(CYTHON_UNUSED PyObject *
  *              DTYPE_t [:, :, ::1] zi):
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]             # <<<<<<<<<<<<<<
- *     cdef Py_ssize_t n_sections = sos.shape[0]
+ *     cdef Py_ssize_t n_sections = sos.shape[1]
  *     cdef Py_ssize_t i, n, s
  */
   __pyx_v_n_samples = (__pyx_v_x.shape[1]);
@@ -6747,11 +6784,11 @@ static PyObject *__pyx_pf_7sosfilt_8_sosfilt_12_sosfilt(CYTHON_UNUSED PyObject *
   /* "sosfilt/_sosfilt.pyx":20
  *     cdef Py_ssize_t n_signals = x.shape[0]
  *     cdef Py_ssize_t n_samples = x.shape[1]
- *     cdef Py_ssize_t n_sections = sos.shape[0]             # <<<<<<<<<<<<<<
+ *     cdef Py_ssize_t n_sections = sos.shape[1]             # <<<<<<<<<<<<<<
  *     cdef Py_ssize_t i, n, s
  *     cdef DTYPE_t x_new, x_cur
  */
-  __pyx_v_n_sections = (__pyx_v_sos.shape[0]);
+  __pyx_v_n_sections = (__pyx_v_sos.shape[1]);
 
   /* "sosfilt/_sosfilt.pyx":25
  *     cdef DTYPE_t[:, ::1] zi_slice
@@ -6836,8 +6873,8 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  *                 x_cur = x[i, n]
  * 
  *                 for s in range(n_sections):             # <<<<<<<<<<<<<<
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
  */
             __pyx_t_10 = __pyx_v_n_sections;
             __pyx_t_11 = __pyx_t_10;
@@ -6847,51 +6884,56 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
               /* "sosfilt/_sosfilt.pyx":33
  * 
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  */
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 0;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 0;
-              __pyx_v_x_new = __Pyx_c_sum_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_cur), (*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) ))));
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 0;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 0;
+              __pyx_v_x_new = __Pyx_c_sum_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), (*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) ))));
 
               /* "sosfilt/_sosfilt.pyx":34
  *                 for s in range(n_sections):
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]             # <<<<<<<<<<<<<<
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new
  */
+              __pyx_t_15 = __pyx_v_i;
               __pyx_t_14 = __pyx_v_s;
               __pyx_t_13 = 1;
-              __pyx_t_8 = __pyx_v_s;
-              __pyx_t_9 = 4;
-              __pyx_t_15 = __pyx_v_s;
-              __pyx_t_16 = 1;
+              __pyx_t_8 = __pyx_v_i;
+              __pyx_t_9 = __pyx_v_s;
+              __pyx_t_16 = 4;
               __pyx_t_17 = __pyx_v_s;
-              __pyx_t_18 = 0;
-              *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) )) = __Pyx_c_sum_long__double(__Pyx_c_diff_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_14 * __pyx_v_sos.strides[0]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) )) + __pyx_t_9)) ))), __pyx_v_x_new)), (*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_15 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_16)) ))));
+              __pyx_t_18 = 1;
+              __pyx_t_19 = __pyx_v_s;
+              __pyx_t_20 = 0;
+              *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_19 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_20)) )) = __Pyx_c_sum_long__double(__Pyx_c_diff_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_15 * __pyx_v_sos.strides[0]) ) + __pyx_t_14 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_cur), __Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_8 * __pyx_v_sos.strides[0]) ) + __pyx_t_9 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_new)), (*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_17 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_18)) ))));
 
               /* "sosfilt/_sosfilt.pyx":35
- *                     x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new             # <<<<<<<<<<<<<<
+ *                     x_new = sos[i, s, 0] * x_cur + zi_slice[s, 0]
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new             # <<<<<<<<<<<<<<
  *                     x_cur = x_new
  * 
  */
-              __pyx_t_16 = __pyx_v_s;
-              __pyx_t_15 = 2;
-              __pyx_t_9 = __pyx_v_s;
-              __pyx_t_8 = 5;
-              __pyx_t_13 = __pyx_v_s;
-              __pyx_t_14 = 1;
-              *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_13 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_14)) )) = __Pyx_c_diff_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_16 * __pyx_v_sos.strides[0]) )) + __pyx_t_15)) ))), __pyx_v_x_cur), __Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) )) + __pyx_t_8)) ))), __pyx_v_x_new));
+              __pyx_t_18 = __pyx_v_i;
+              __pyx_t_17 = __pyx_v_s;
+              __pyx_t_16 = 2;
+              __pyx_t_9 = __pyx_v_i;
+              __pyx_t_8 = __pyx_v_s;
+              __pyx_t_13 = 5;
+              __pyx_t_14 = __pyx_v_s;
+              __pyx_t_15 = 1;
+              *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_zi_slice.data + __pyx_t_14 * __pyx_v_zi_slice.strides[0]) )) + __pyx_t_15)) )) = __Pyx_c_diff_long__double(__Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_18 * __pyx_v_sos.strides[0]) ) + __pyx_t_17 * __pyx_v_sos.strides[1]) )) + __pyx_t_16)) ))), __pyx_v_x_cur), __Pyx_c_prod_long__double((*((__pyx_t_long_double_complex *) ( /* dim=2 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=1 */ (( /* dim=0 */ (__pyx_v_sos.data + __pyx_t_9 * __pyx_v_sos.strides[0]) ) + __pyx_t_8 * __pyx_v_sos.strides[1]) )) + __pyx_t_13)) ))), __pyx_v_x_new));
 
               /* "sosfilt/_sosfilt.pyx":36
- *                     zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
- *                     zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+ *                     zi_slice[s, 0] = sos[i, s, 1] * x_cur - sos[i, s, 4] * x_new + zi_slice[s, 1]
+ *                     zi_slice[s, 1] = sos[i, s, 2] * x_cur - sos[i, s, 5] * x_new
  *                     x_cur = x_new             # <<<<<<<<<<<<<<
  * 
  *                 x[i, n] = x_cur
@@ -6904,9 +6946,9 @@ __PYX_XDEC_MEMVIEW(&__pyx_v_zi_slice, 0);
  * 
  *                 x[i, n] = x_cur             # <<<<<<<<<<<<<<
  */
-            __pyx_t_8 = __pyx_v_i;
-            __pyx_t_9 = __pyx_v_n;
-            *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_8 * __pyx_v_x.strides[0]) )) + __pyx_t_9)) )) = __pyx_v_x_cur;
+            __pyx_t_13 = __pyx_v_i;
+            __pyx_t_8 = __pyx_v_n;
+            *((__pyx_t_long_double_complex *) ( /* dim=1 */ ((char *) (((__pyx_t_long_double_complex *) ( /* dim=0 */ (__pyx_v_x.data + __pyx_t_13 * __pyx_v_x.strides[0]) )) + __pyx_t_8)) )) = __pyx_v_x_cur;
           }
         }
       }
@@ -29464,144 +29506,6 @@ no_fail:
 }
 
 /* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo_float, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo___pyx_t_float_complex, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo_double, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo___pyx_t_double_complex, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo_long__double, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
-    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(PyObject *obj, int writable_flag) {
-    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
-    __Pyx_BufFmt_StackElem stack[1];
-    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
-    int retcode;
-    if (obj == Py_None) {
-        result.memview = (struct __pyx_memoryview_obj *) Py_None;
-        return result;
-    }
-    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
-                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
-                                                 &__Pyx_TypeInfo___pyx_t_long_double_complex, stack,
-                                                 &result, obj);
-    if (unlikely(retcode == -1))
-        goto __pyx_fail;
-    return result;
-__pyx_fail:
-    result.memview = NULL;
-    result.data = NULL;
-    return result;
-}
-
-/* ObjectToMemviewSlice */
     static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_d_dc_float(PyObject *obj, int writable_flag) {
     __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
     __Pyx_BufFmt_StackElem stack[1];
@@ -29728,6 +29632,144 @@ __pyx_fail:
     }
     retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
                                                  (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 3,
+                                                 &__Pyx_TypeInfo___pyx_t_long_double_complex, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_float(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
+                                                 &__Pyx_TypeInfo_float, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_float_complex(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
+                                                 &__Pyx_TypeInfo___pyx_t_float_complex, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_double(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
+                                                 &__Pyx_TypeInfo_double, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_double_complex(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
+                                                 &__Pyx_TypeInfo___pyx_t_double_complex, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc_long__double(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
+                                                 &__Pyx_TypeInfo_long__double, stack,
+                                                 &result, obj);
+    if (unlikely(retcode == -1))
+        goto __pyx_fail;
+    return result;
+__pyx_fail:
+    result.memview = NULL;
+    result.data = NULL;
+    return result;
+}
+
+/* ObjectToMemviewSlice */
+    static CYTHON_INLINE __Pyx_memviewslice __Pyx_PyObject_to_MemoryviewSlice_d_dc___pyx_t_long_double_complex(PyObject *obj, int writable_flag) {
+    __Pyx_memviewslice result = { 0, 0, { 0 }, { 0 }, { 0 } };
+    __Pyx_BufFmt_StackElem stack[1];
+    int axes_specs[] = { (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_FOLLOW), (__Pyx_MEMVIEW_DIRECT | __Pyx_MEMVIEW_CONTIG) };
+    int retcode;
+    if (obj == Py_None) {
+        result.memview = (struct __pyx_memoryview_obj *) Py_None;
+        return result;
+    }
+    retcode = __Pyx_ValidateAndInit_memviewslice(axes_specs, __Pyx_IS_C_CONTIG,
+                                                 (PyBUF_C_CONTIGUOUS | PyBUF_FORMAT) | writable_flag, 2,
                                                  &__Pyx_TypeInfo___pyx_t_long_double_complex, stack,
                                                  &result, obj);
     if (unlikely(retcode == -1))
