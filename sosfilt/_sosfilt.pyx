@@ -19,15 +19,20 @@ def _sosfilt(DTYPE_t [:, ::1] sos,
     cdef Py_ssize_t n_samples = x.shape[1]
     cdef Py_ssize_t n_sections = sos.shape[0]
     cdef Py_ssize_t i, n, s
-    cdef DTYPE_t x_n
-    cdef DTYPE_t [:, ::1] b = sos[:, :3]
-    cdef DTYPE_t [:, ::1] a = sos[:, 4:]
+    cdef DTYPE_t x_new, x_cur
+    cdef DTYPE_t[:, ::1] zi_slice
 
     with nogil:
         for i in range(n_signals):
+            zi_slice = zi[i, :, :]
+
             for n in range(n_samples):
+                x_cur = x[i, n]
+
                 for s in range(n_sections):
-                    x_n = x[i, n]
-                    x[i, n] = b[s, 0] * x_n + zi[i, s, 0]
-                    zi[i, s, 0] = b[s, 1] * x_n - a[s, 0] * x[i, n] + zi[i, s, 1]
-                    zi[i, s, 1] = b[s, 2] * x_n - a[s, 1] * x[i, n]
+                    x_new = sos[s, 0] * x_cur + zi_slice[s, 0]
+                    zi_slice[s, 0] = sos[s, 1] * x_cur - sos[s, 4] * x_new + zi_slice[s, 1]
+                    zi_slice[s, 1] = sos[s, 2] * x_cur - sos[s, 5] * x_new
+                    x_cur = x_new
+
+                x[i, n] = x_cur
