@@ -63,3 +63,25 @@ class TestFiltFilt(object):
             y = signal.filtfilt(b, a, x)
             y_sos = sosfiltfilt(sos, x)
             np.testing.assert_allclose(y, y_sos, atol=1e-12, err_msg=f"order={order}")
+
+
+def test_multiple():
+    x = np.random.RandomState(0).randn(2, 20, 2)
+    a, b = x.shape[0], x.shape[2]
+
+    filters = np.stack(
+        [
+            signal.butter(3, np.random.RandomState(0).rand(), output="sos")
+            for _ in range(a * b)
+        ]
+    )
+
+    y_sos = sosfiltfilt(filters, x, axis=1)
+
+    y = np.empty(x.shape, dtype=x.dtype)
+
+    for i in range(a):
+        for j in range(b):
+            y[i, :, j] = signal.sosfiltfilt(filters[i * b + j, ...], x[i, :, j])
+
+    np.testing.assert_allclose(y, y_sos)
