@@ -71,6 +71,7 @@ def sosfilt_zi(sos):
         B = b[:, 1:] - a[:, 1:] * b[:, [0]]
         zi[:, section, 0] = B.sum(axis=-1) / a.sum(axis=-1)
         zi[:, section, 1] = B[:, 1] - a[:, 2] * zi[:, section, 0]
+        zi[:, section, :] *= scale[:, None]
 
         scale *= b.sum(axis=-1) / a.sum(axis=-1)
 
