@@ -1,5 +1,12 @@
 [build-system]
-requires = ["setuptools", "wheel", "setuptools_scm[toml]", "cython", "numpy", "pythran"]
+requires = [
+    "setuptools",
+    "wheel",
+    "setuptools_scm[toml]",
+    "cython",
+    "numpy",
+    "pythran @ git+https://github.com/angus-g/pythran@complex-working#egg=pythran"
+]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools_scm]
