@@ -30,14 +30,10 @@ sosfilt`.
 ```python
 import sosfilt
 import numpy as np
-from scipy import signal
 
 x = np.random.randn(5, 20, 5)
-f = np.stack(
-	[
-		signal.butter(3, np.random.rand(), output="sos")
-		for _ in range(25)
-	]
-)
+# 25 random lowpass filters
+f = sosfilt.butter(3, np.random.rand(25))
+
 sosfilt.sosfiltfilt(f, x, axis=1)
 ```
