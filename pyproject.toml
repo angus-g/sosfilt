@@ -1,3 +1,22 @@
+[project]
+name = "sosfilt"
+description = "Second-order section filtering with multiple filters"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    {name = "Angus Gibson", email = "angus@agibson.me"}
+]
+license = {file = "LICENSE"}
+homepage = "https://github.com/angus-g/sosfilt"
+repository = "https://github.com/angus-g/sosfilt"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX"
+]
+dependencies = ["scipy"]
+
 [build-system]
 requires = [
     "setuptools",
