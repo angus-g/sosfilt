@@ -7,15 +7,14 @@ authors = [
     {name = "Angus Gibson", email = "angus@agibson.me"}
 ]
 license = {file = "LICENSE"}
-homepage = "https://github.com/angus-g/sosfilt"
-repository = "https://github.com/angus-g/sosfilt"
-
+urls = {homepage = "https://github.com/angus-g/sosfilt"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: POSIX"
 ]
 dependencies = ["scipy"]
+dynamic = ["version"]
 
 [build-system]
 requires = [
@@ -24,7 +23,7 @@ requires = [
     "setuptools_scm[toml]",
     "cython",
     "numpy",
-    "pythran @ git+https://github.com/angus-g/pythran@complex-working#egg=pythran"
+    "pythran>=0.9.10"
 ]
 build-backend = "setuptools.build_meta"
 
