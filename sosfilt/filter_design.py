@@ -22,7 +22,7 @@ def lp2lp_zpk(z, p, k, wo=1.0):
 
     z_lp = wo * z[:, None]
     p_lp = wo * p[:, None]
-    k_lp = k * wo ** degree
+    k_lp = k * wo**degree
 
     return z_lp, p_lp, k_lp
 
