@@ -1,5 +1,11 @@
 import numpy as np
-from scipy.signal import signaltools
+
+# scipy is deprecating public access to signaltools, but we're using private methods anyway
+try:
+    from scipy.signal import _signaltools as signaltools
+except ImportError:
+    from scipy.signal import signaltools
+
 from ._sosfilt import _sosfilt
 
 
