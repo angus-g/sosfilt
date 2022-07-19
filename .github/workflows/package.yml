@@ -22,9 +22,13 @@ jobs:
         with:
           python-versions: "cp37-cp37m cp38-cp38 cp39-cp39 cp310-cp310"
           system-packages: "openblas-devel atlas-devel"
+      - name: Create sdist archive
+        run: |
+          pip install build
+          python -m build -s
       - name: Publish wheels to PyPI
         env:
           TWINE_USERNAME: "__token__"
           TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: |
-          twine upload dist/*-manylinux*.whl
+          twine upload dist/*-manylinux*.whl dist/*.tar.gz
