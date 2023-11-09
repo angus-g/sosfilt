@@ -27,4 +27,14 @@ requires = [
 ]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+packages = ["sosfilt"]
+
 [tool.setuptools_scm]
+
+[tool.cibuildwheel]
+archs = ["x86_64"]
+manylinux-x86_64-image = "manylinux_2_28"
+
+[tool.cibuildwheel.linux]
+before-all = "yum install -y openblas-devel atlas-devel"
