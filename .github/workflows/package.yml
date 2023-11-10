@@ -24,6 +24,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: sudo apt install -y libopenblas-dev
       - name: Build sdist
         run: pipx run build --sdist
       - uses: actions/upload-artifact@v3
@@ -31,7 +33,6 @@ jobs:
           path: ./dist/*.tar.gz
 
   upload_pypi:
-    if: false
     needs: [build_wheels, build_sdist]
     runs-on: ubuntu-latest
     environment: pypi
