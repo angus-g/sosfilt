@@ -1,6 +1,6 @@
 [project]
 name = "sosfilt"
-version = "1.3.0dev0"
+version = "1.3.0"
 description = "Second-order section filtering with multiple filters"
 readme = "README.md"
 requires-python = ">=3.7"
