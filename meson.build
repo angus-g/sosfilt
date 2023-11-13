@@ -51,4 +51,6 @@ cython_gen = generator(cython,
   output: '@BASENAME@.c',
 )
 
+pythran_cpp_args = ['-DENABLE_PYTHON_MODULE']
+
 subdir('sosfilt')

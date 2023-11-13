@@ -15,10 +15,10 @@ jobs:
 
   testing:
     needs: formatting
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.7', '3.8', '3.9', '3.10']
+        python-version: ['3.7', '3.8', '3.9', '3.10', '3.11']
 
     steps:
       - uses: actions/checkout@v3
@@ -28,8 +28,11 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
-          python -m pip install -e .
+          sudo apt install -y libopenblas-dev
           python -m pip install pytest
+      - name: Install library
+        run: python -m pip install --verbose .
       - name: Unit tests
         run: |
+          cd sosfilt/tests
           python -m pytest

@@ -1,6 +1,5 @@
 python_sources = [
   '__init__.py',
-  '_zpk_funcs.py',
   'filter_design.py',
   'sosfilt.py',
 ]
@@ -28,6 +27,7 @@ zpk_funcs = custom_target('_zpk_funcs',
 
 zpk_funcs = py3.extension_module('_zpk_funcs',
   [zpk_funcs],
+  cpp_args: pythran_cpp_args,
   dependencies: [blas, pythran_dep, np_dep],
   install: true,
   subdir: 'sosfilt',
