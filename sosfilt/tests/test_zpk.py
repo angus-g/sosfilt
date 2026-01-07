@@ -8,10 +8,10 @@ from sosfilt import _zpk_funcs
 class TestCplxReal:
     def test_trivial_input(self):
         np.testing.assert_equal(
-            _zpk_funcs._cplxreal(np.array([], dtype=np.complex_)), ([], [])
+            _zpk_funcs._cplxreal(np.array([], dtype=np.complex128)), ([], [])
         )
         np.testing.assert_equal(
-            _zpk_funcs._cplxreal(np.array([1], dtype=np.complex_)), ([], [1])
+            _zpk_funcs._cplxreal(np.array([1], dtype=np.complex128)), ([], [1])
         )
 
     def test_output_order(self):
@@ -103,7 +103,7 @@ class TestZpk2Sos:
         )[0, ...]
 
     def test_basic(self):
-        z = np.array([-1.0, -1.0], dtype=np.complex_)
+        z = np.array([-1.0, -1.0], dtype=np.complex128)
         p = np.array([0.57149 + 0.29360j, 0.57149 - 0.29360j])
         k = 1
         sos = self.sos2zpk(z, p, k)
@@ -117,7 +117,7 @@ class TestZpk2Sos:
         sos2 = [[1, 0, 1, 1, 0, +0.49], [1, 0, 0, 1, 0, -0.81]]
         np.testing.assert_array_almost_equal(sos, sos2, decimal=4)
 
-        z = np.array([], dtype=np.complex_)
+        z = np.array([], dtype=np.complex128)
         p = np.array([0.8, -0.5 + 0.25j, -0.5 - 0.25j])
         k = 1
         sos = self.sos2zpk(z, p, k)

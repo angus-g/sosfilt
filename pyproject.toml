@@ -1,6 +1,6 @@
 [project]
 name = "sosfilt"
-version = "1.3.0"
+version = "1.4.0"
 description = "Second-order section filtering with multiple filters"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -27,7 +27,6 @@ requires = [
 
 [tool.cibuildwheel]
 archs = ["x86_64"]
-skip = "cp312-*"
 manylinux-x86_64-image = "manylinux_2_28"
 musllinux-x86_64-image = "musllinux_1_2"
 

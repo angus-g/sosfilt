@@ -34,7 +34,7 @@ def _validate_nfilters(x, axis, n_filters):
     # product of the non-filtered axes of x
     x_shape = list(x.shape)
     x_shape.pop(axis)
-    if n_filters != np.product(x_shape):
+    if n_filters != np.prod(x_shape):
         raise ValueError("n_filters must match product of non-filtered axes")
 
 
