@@ -83,7 +83,7 @@ def butter(N, Wn, btype="lowpass", output="sos", fs=None):
     """
 
     try:
-        btype = signal.filter_design.band_dict[btype]
+        btype = signal._filter_design.band_dict[btype]
     except KeyError as e:
         raise ValueError("'{}' is an invalid bandtype.".format(btype)) from e
 
@@ -115,4 +115,4 @@ def butter(N, Wn, btype="lowpass", output="sos", fs=None):
     elif output == "ba":
         return zpk2tf_multiple(z, p, k)
     elif output == "sos":
-        return zpk2sos_multiple(z.astype(np.complex_), p.astype(np.complex_), k)
+        return zpk2sos_multiple(z.astype(np.complex128), p.astype(np.complex128), k)
