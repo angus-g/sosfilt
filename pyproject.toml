@@ -3,7 +3,7 @@ name = "sosfilt"
 version = "1.4.0"
 description = "Second-order section filtering with multiple filters"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 authors = [
     {name = "Angus Gibson", email = "angus@agibson.me"}
 ]
