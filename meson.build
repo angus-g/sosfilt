@@ -41,8 +41,8 @@ if incdir_pythran == 'not-given'
 endif
 pythran_dep = declare_dependency(include_directories: incdir_pythran)
 
-blas = dependency(['openblas', 'OpenBLAS'])
-lapack = dependency(['openblas', 'OpenBLAS'])
+blas = dependency(['flexiblas', 'openblas', 'OpenBLAS'])
+lapack = dependency(['flexiblas', 'openblas', 'OpenBLAS'])
 
 cython_args = ['-3', '--fast-fail', '--output-file', '@OUTPUT@', '@INPUT@']
 cython_c_args = ['-DNPY_NO_DEPRECATED_API=NPY_1_9_API_VERSION']
