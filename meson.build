@@ -1,7 +1,7 @@
 project(
   'sosfilt',
   'c', 'cpp', 'cython',
-  version: '1.4.1',
+  version: '1.4.2',
   license: 'MIT',
   default_options: [
     'buildtype=debugoptimized',

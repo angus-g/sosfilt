@@ -1,9 +1,9 @@
 [project]
 name = "sosfilt"
-version = "1.4.1"
+version = "1.4.2"
 description = "Second-order section filtering with multiple filters"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     {name = "Angus Gibson", email = "angus@agibson.me"}
 ]
