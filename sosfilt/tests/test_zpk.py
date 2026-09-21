@@ -1,6 +1,5 @@
-import pytest
-
 import numpy as np
+import pytest
 
 from sosfilt import _zpk_funcs
 

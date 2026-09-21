@@ -1,4 +1,3 @@
-import pytest
 
 import numpy as np
 from scipy import signal
@@ -6,7 +5,7 @@ from scipy import signal
 from sosfilt import sosfiltfilt
 
 
-class TestFiltFilt(object):
+class TestFiltFilt:
     def filtfilt(self, zpk, x, axis=-1, padtype="odd", padlen=None):
         sos = signal.zpk2sos(*zpk)
         return sosfiltfilt(sos, x, axis, padtype, padlen)

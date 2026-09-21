@@ -1,4 +1,3 @@
-import pytest
 
 import numpy as np
 
@@ -15,7 +14,7 @@ class TestButter:
     def test_basic(self):
         for N in range(25):
             wn = np.array([0.01])
-            z, p, k = butter(N, wn, "highpass", output="zpk")
+            z, p, _k = butter(N, wn, "highpass", output="zpk")
 
             np.testing.assert_array_equal(np.ones(N), z[:, 0])
             np.testing.assert_(np.all(np.abs(p) <= 1))

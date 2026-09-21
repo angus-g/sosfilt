@@ -85,7 +85,7 @@ def butter(N, Wn, btype="lowpass", output="sos", fs=None):
     try:
         btype = signal._filter_design.band_dict[btype]
     except KeyError as e:
-        raise ValueError("'{}' is an invalid bandtype.".format(btype)) from e
+        raise ValueError(f"'{btype}' is an invalid bandtype.") from e
 
     Wn = np.asarray(Wn)
     if fs is not None:
@@ -102,7 +102,7 @@ def butter(N, Wn, btype="lowpass", output="sos", fs=None):
     elif btype == "highpass":
         z, p, k = lp2hp_zpk(z, p, k, wo=warped)
     else:
-        raise NotImplementedError("'{}' is not a supported bandtype".format(btype))
+        raise NotImplementedError(f"'{btype}' is not a supported bandtype")
 
     # after this point, z, p, k are arrays of multiple filters:
     # for z, p: axis 0 is the "normal" shape; axis 1 is filter number

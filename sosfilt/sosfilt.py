@@ -87,7 +87,7 @@ def sosfilt_zi(sos):
 def sosfilt(sos, x, axis=-1, zi=None):
     x = signaltools._validate_x(x)
 
-    sos, n_sections, n_filters = _validate_sos(sos)
+    sos, n_sections, _n_filters = _validate_sos(sos)
 
     x_zi_shape = list(x.shape)
     x_zi_shape[axis] = 2
@@ -196,11 +196,11 @@ def sosfiltfilt(sos, x, axis=-1, padtype="odd", padlen=None):
 
     # forward filter
     x_0 = signaltools.axis_slice(ext, stop=1, axis=axis)
-    (y, zf) = sosfilt(sos, ext, axis=axis, zi=zi * x_0)
+    (y, _zf) = sosfilt(sos, ext, axis=axis, zi=zi * x_0)
 
     # backward filter
     y_0 = signaltools.axis_slice(y, start=-1, axis=axis)
-    (y, zf) = sosfilt(
+    (y, _zf) = sosfilt(
         sos, signaltools.axis_reverse(y, axis=axis), axis=axis, zi=zi * y_0
     )
 
